@@ -4,7 +4,7 @@
     <title>Sign Up Page</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link  href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Pattaya|Rosario&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Biryani|Pattaya|Rosario&display=swap" rel="stylesheet">
   </head>
   
   <body>
@@ -27,9 +27,9 @@
           </select><br />
           Select a County:  <select id="county"></select><br><br>
 
-          Desired Username: <input type="text" id="username" name="username">
+          Desired Username: <input type="text" id="username" name="username"><br>
                             <span id="usernameError"></span><br>
-          Password:         <input type="password" id="password" name="password">
+          Password:         <input type="password" id="password" name="password"><br>
                             <span id="passwordError"></span><br>
           Password Again:   <input type="password" id="passwordAgain"><br>
                             <span id="passwordAgainError"></span><br/><br>
