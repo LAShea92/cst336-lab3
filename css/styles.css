@@ -1,0 +1,60 @@
+#container{
+  text-align: center;
+  background-color: #DBDEE1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 5px;
+  border: 3px;
+  border-color: black;
+  border-radius: 4px;
+}
+
+#signupForm{
+  text-align: left;
+  font-family: 'Rosario', sans-serif;
+  font-size: .8em;
+}
+
+input[type=password], input[type=text] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Biryani', sans-serif;
+}
+
+h1{
+  font-family: 'Pattaya', sans-serif;
+  text-align: center:
+}
+
+select {
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-family: 'Biryani', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#longitude, #latitude, #city{
+  font-family: 'Biryani', sans-serif;
+  font-weight: bold;
+}
