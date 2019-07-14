@@ -16,7 +16,8 @@
           Gender:     <input type="radio" name="gender" value="m"> Male
                       <input type="radio" name="gender" value="f"> Female<br><br>
 
-          Zip Code: <input type="text" name="zip" id="zip"><br><br>
+          Zip Code:  <input type="text" name="zip" id="zip">
+                     <span id="notFound"></span><br>
           City:      <span id="city"></span><br><br>
           Latitude:  <span id="latitude"></span><br><br>
           Longitude: <span id="longitude"></span><br><br>
@@ -49,6 +50,10 @@
             data: { "zip" : $("#zip").val()},
             success: function(result,status) {
               //alert(result);
+              if(result == false){
+                $("#notFound").html("Zip not found");
+                $("#notFound").css("color", "red");
+              }
               $("#city").html(result.city);
               $("#latitude").html(result.latitude);
               $("#longitude").html(result.longitude);

@@ -58,3 +58,11 @@ input[type=submit] {
   font-family: 'Biryani', sans-serif;
   font-weight: bold;
 }
+
+#zip{
+  width: 25%;
+}
+
+#notFound{
+  width: 25%;
+}
