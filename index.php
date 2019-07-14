@@ -16,8 +16,10 @@
           Gender:     <input type="radio" name="gender" value="m"> Male
                       <input type="radio" name="gender" value="f"> Female<br><br>
 
-          Zip Code:  <input type="text" name="zip" id="zip">
-                     <span id="notFound"></span><br>
+          Zip Code:  <div id="zipContainer">
+                        <input type="text" name="zip" id="zip">
+                        <span id="notFound"></span><br>
+                     </div>
           City:      <span id="city"></span><br><br>
           Latitude:  <span id="latitude"></span><br><br>
           Longitude: <span id="longitude"></span><br><br>

@@ -59,10 +59,14 @@ input[type=submit] {
   font-weight: bold;
 }
 
+#zipContainer{
+  width: 100%;
+}
+
 #zip{
-  width: 25%;
+  width: 33%;
 }
 
 #notFound{
-  width: 25%;
+  width: 33%;
 }
